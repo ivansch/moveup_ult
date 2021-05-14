@@ -1,0 +1,344 @@
+<%- layout('layouts/main') %>
+<div id="navbar">
+  <article class="cerclenav">
+    <img class="imgnav" src="/img/svg/customer-services.svg" alt="svg image" />
+  </article>
+  <a class="actionTel" href="tel:2027702115">
+    <p class="parrNav">(240)-770-2115</p>
+  </a>
+</div>
+<nav class="navbars">
+  <a href="index.html"> <img class="imgLogo" src="/img/logo.png" class="imgLogo" alt=""></a>
+  <ul class="nav-menu">
+    <li class="nav-item">
+      <a href="#howItWorks" class="icon"><span class="label">HOW IT WORKS</span></a>
+    </li>
+    <li class="nav-item">
+      <a href="#whyChooseUs" class="icon"><span class="label">WHY CHOOSE US</span></a>
+    </li>
+    <li class="nav-item">
+      <a href="#whoWheAre" class="icon "><span class="label">WHO WE ARE</span></a>
+    </li>
+    <li class="nav-item">
+      <a href="#testimonials" class="icon "><span class="label">TESTIMONIALS</span></a>
+    </li>
+    <li class="nav-item">
+      <a href="#contactUs" class="icon "><span class="label">CONTACT</span></a>
+    </li>
+  </ul>
+  <div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+</nav>
+<nav class="dFlex">
+  <a href="index.html"> <img class="imgLogo" src="/img/logo.png" class="imgLogo" alt=""></a>
+  <div class="ulTop">
+    <ul class="icons ulSocial">
+      <li><a href="#howItWorks" class="icon"><span class="label">HOW IT WORKS</span></a></li>
+      <li><a href="#whyChooseUs" class="icon"><span class="label">WHY CHOOSE US</span></a></li>
+      <li><a href="#whoWheAre" class="icon "><span class="label">WHO WE ARE</span></a></li>
+      <li><a href="#testimonials" class="icon "><span class="label">TESTIMONIALS</span></a></li>
+      <li><a href="#contactUs" class="icon "><span class="label">CONTACT</span></a></li>
+    </ul>
+  </div>
+</nav>
+<main class="mainText">
+  <div class="divtextMain">
+    <div class="">
+      <h1 class="title">Problems with the house?</h1>
+      <h2 class="title">We will buy it!</h2>
+      <button id="myBtn" class="btn" type="button" name="button">
+        <p class="parrBtn">Click here for an offer</p>
+      </button>
+    </div>
+  </div>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <section>
+        <form action="/send-email" method="POST">
+          <input class="inputFormFirst" type="text" id="fname" name="message" placeholder="Address" required><br>
+          <div class="divFlexForm">
+            <input class="inputForm" type="text" id="lname" name="name" placeholder="Name" required><br>
+            <input class="inputForm" type="text" id="lphone" name="phone" placeholder="PhoneNumber" required><br>
+          </div>
+          <input class="inputFormFirst" type="email" id="fmail" name="email" placeholder="Email" required><br><br>
+          <button class="submitForm" onclick="" type="submit">
+            <p class="submitFormparr">Get a free offer <b class="boldLight">today!</b></p>
+          </button>
+        </form>
+      </section>
+    </div>
+
+  </div>
+</main>
+<section id="howItWorks">
+  <h2 class="subtitle">How it works?</h2>
+  <hr class="hrSub">
+  <div class="cardContent">
+    <article class="card">
+      <h3 class="titleCard">Step 1</h3>
+      <article class="contentDots2">
+        <div class="dotCont2">
+          <img class="imgSvg2" src="/img/svg/step1.svg" alt="svg image" />
+        </div>
+        <div class="dotInt2">
+        </div>
+      </article>
+      <h4 class="subtitleCard">Contact Us</h4>
+      <hr class="hrSub2">
+      <p class="parrCard">We are available 24/7 to answer your questions. Our friendly professionals are here to help and hear you out, to ensure that we can build a solution specific to your situation.</p>
+    </article>
+    <article class="card">
+      <h3 class="titleCard">Step 2</h3>
+      <article class="contentDots2">
+        <div class="dotCont2">
+          <img class="imgSvg2" src="/img/svg/step2.svg" alt="svg image" />
+        </div>
+        <div class="dotInt2">
+        </div>
+      </article>
+      <h4 class="subtitleCard">Get your no obligation confidential cash offer in 24 hours or less.
+      </h4>
+      <hr class="hrSub2">
+      <p class="parrCard">We understand many times these situations are stressful, so we are committed to working quickly to help you with your problem.
+      </p>
+    </article>
+    <article class="card">
+      <h3 class="titleCard">Step 3</h3>
+      <article class="contentDots2">
+        <div class="dotCont2">
+          <img class="imgSvg2" src="/img/svg/step3.svg" alt="svg image" />
+        </div>
+        <div class="dotInt2">
+        </div>
+      </article>
+      <h4 class="subtitleCard">Cash in your pocket in five days!</h4>
+      <hr class="hrSub2">
+      <p class="parrCard">We can close on your timeline. That can be as fast as seven days, or we are happy to provide you with as much time as you need to plan your next move.
+      </p>
+    </article>
+  </div>
+</section>
+<section class="divFlexS">
+  <article class="">
+    <p class="parrg">ALL CASH OFFERS</p>
+    <article class="containerDots">
+      <div class="dotConteiner">
+        <img class="imgSvg2" src="/img/svg/cash.svg" alt="svg image" />
+      </div>
+      <div class="dotInterior">
+      </div>
+    </article>
+  </article>
+  <hr class="hrSubS">
+  <article class="">
+    <p class="parrg">CLOSE ON YOUR <br>TIMELINE</p>
+    <article class="containerDots">
+      <div class="dotConteinerS">
+        <img class="imgSvg2" src="/img/svg/flashOk.svg" alt="svg image" />
+      </div>
+      <div class="dotInteriorS">
+      </div>
+    </article>
+  </article>
+  <hr class="hrSubS">
+  <article class="">
+    <p class="parrg">AS IS CONDITION</p>
+    <article class="containerDots">
+      <div class="dotConteiner">
+        <img class="imgSvg2" src="/img/svg/homeOk.svg" alt="svg image" />
+      </div>
+      <div class="dotInterior">
+      </div>
+    </article>
+  </article>
+</section>
+<section id="weBuyHouses">
+  <div class="divFlexSpaceBetween">
+    <img class="imgWeBuy" src="/img/weBuyHouses.jpg" alt="">
+    <div class="contentParrWeBuy">
+      <p class="subtitleSec">We buy houses as is from </p>
+      <p class="subtitleSec">homeowner for <b class="subtitleSectionLight">any reason:</b> </p>
+    </div>
+  </div>
+  <div class="cardContents">
+    <p class="parrCardCont">Distressed Property</p>
+    <p class="parrCardCont">Late Mortgage Payments</p>
+    <p class="parrCardCont">Rental Property</p>
+    <p class="parrCardCont">Damaged Property</p>
+  </div>
+  <div class="cardContents2">
+    <p class="parrCardCont">Foreclosure</p>
+    <p class="parrCardCont">Bankruptcy</p>
+    <p class="parrCardCont">Inherited House</p>
+    <p class="parrCardCont">Relocating</p>
+  </div>
+  <div class="cardContents3">
+    <p class="parrCardCont">Downsizing</p>
+    <p class="parrCardCont">Divorce</p>
+    <p class="parrCardCont">Ugly House</p>
+    <p class="parrCardCont">Probate</p>
+  </div>
+</section>
+<img src="/img/washington4.jpg" class="wsImg" alt="washingtonLight">
+<section id="whyChooseUs">
+  <section class="divFlexSpaceBetweenOver">
+    <article class="divWhychoose">
+      <h2 class="subtitleLeft">Why choose us?</h2>
+      <h3 class="subSec">Selling your home to MoveUp <br>
+        is <b class="subSecLight">easy</b>, <b class="subSecLight">fast</b> and <b class="subSecLight">safe</b>.</h3>
+    </article>
+    <img class="imgContact" src="/img/whyChooseUs.jpg" alt="">
+  </section>
+
+  <section class="divFlexWhy">
+    <div class="">
+      <article class="contentDots">
+        <div class="dotCont">
+          <img class="imgSvg" src="/img/svg/easy.svg" alt="svg image" />
+        </div>
+        <div class="dotInt">
+        </div>
+      </article>
+      <h2 class="titChoose">Easy</h2>
+      <p class="textParr">Just a quick phone call and we can give you a free no obligation offer. Sell your home without struggles, hiring agents and showing your property. </p>
+    </div>
+    <div class="">
+      <article class="contentDots">
+        <div class="dotCont">
+          <img class="imgSvg" src="/img/svg/fast.svg" alt="svg image" />
+        </div>
+        <div class="dotInt">
+        </div>
+      </article>
+      <h2 class="titChoose">Fast</h2>
+      <p class="textParr">Receive your offer in less than 24 hours any day of the week. We also work with YOUR needs and YOUR timeline!
+      </p>
+    </div>
+    <div class="">
+      <article class="contentDots">
+        <div class="dotCont">
+          <img class="imgSvg" src="/img/svg/safe.svg" alt="svg image" />
+        </div>
+        <div class="dotInt">
+        </div>
+      </article>
+      <h2 class="titChoose">Safe</h2>
+      <p class="textParr">We take your privacy seriously and will keep this transaction confidential throughout. Transparency, integrity and professionalism throughout.
+      </p>
+    </div>
+  </section>
+</section>
+<section id="whoWheAre">
+  <h2 class="subtitle">Who we are?</h2>
+  <hr class="hrSub">
+  <div class="divFlexSpaceA">
+    <img class="imgContact" src="/img/handcontact.jpg" alt="">
+    <div class="contentText">
+      <p class="textParr2">We are a local real estate investment company with an impeccable reputation in the local community. We are committed to helping homeowners with their home, offering tailor-made solutions to your unique needs and
+        situation. We offer full transparency throughout the entire process, ensuring that you get a fair offer for your home. </p>
+    </div>
+  </div>
+</section>
+<section id="testimonials">
+  <!-- <h2 class="subtitleRight">Testimonials</h2> -->
+  <!-- <article class="cuadrante">
+    <iframe class="ifrVideo" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </article> -->
+  <section class="cuadranteTestimonials">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <article class="cuadrante2">
+          <img class="imgSvgTestimonials" src="/img/testimonials2.jpg" alt="">
+          <h4 class="subtitleSecLight">Lisa W.</h4>
+          <h5 class="subGray">Bowie, Maryland</h5>
+          <div class="testText">
+            <i class="fas fa-quote-left quoteLeft"></i>
+            <p class="textParrTestimonials">" MoveUp HomeBuyers made me a fair cash offer. They were able to work with my situation and close very quickly "</p>
+            <i class="fas fa-quote-right quoteRight"></i>
+          </div>
+        </article>
+      </div>
+
+      <div class="mySlides fade">
+        <article class="cuadrante2">
+          <img class="imgSvgTestimonials" src="/img/testimonials4.jpg" alt="">
+          <h4 class="subtitleSecLight">Frank and Sarah M. </h4>
+          <h5 class="subGray">Clinton, Maryland</h5>
+          <div class="testText">
+            <i class="fas fa-quote-left quoteLeft"></i>
+            <p class="textParrTestimonials">" We enjoyed working with MoveUp HomeBuyers. Every step of the way was clearly explained to us. Everyone we worked with was patient and honest. Our sale was tailor-made for me and my needs, which we
+              greatly appreciated. Thank you to everyone at MoveUp HomeBuyers! "</p>
+            <i class="fas fa-quote-right quoteRight"></i>
+          </div>
+        </article>
+      </div>
+
+      <div class="mySlides fade">
+        <article class="cuadrante2">
+          <img class="imgSvgTestimonials" src="/img/testimonials3.jpg" alt="">
+          <h4 class="subtitleSecLight">Robert W.</h4>
+          <h5 class="subGray">Capitol Heights, Maryland
+          </h5>
+          <div class="testText">
+            <i class="fas fa-quote-left quoteLeft"></i>
+            <p class="textParrTestimonials">" Selling my home was stressing me out. The folks at MoveUp HomeBuyers were professional and transparent throughout the entire process and made me feel comfortable " </p>
+            <i class="fas fa-quote-right quoteRight"></i>
+          </div>
+        </article>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)"><i class='fas fa-chevron-circle-left'></i></a>
+      <a class="next" onclick="plusSlides(1)"><i class='fas fa-chevron-circle-right'></i></a>
+  </section>
+</section>
+<section id="contactUs">
+  <h2 class="subtitleLeft2">Contact <b class="subtitleBold">us</b></h2>
+  <div class="divFlexSpaceA">
+    <div class="">
+      <a href="tel:2027702115" target="_blank">
+        <p class="textParrContact"> Phone (US): (240)-770-2115</p>
+      </a>
+      <br>
+      <a href="mailto:info@moveuphomebuyers.com" target="_blank">
+        <p class="textParrContact">Mail: info@moveuphomebuyers.com</p>
+      </a>
+      <br>
+      <a href="https://www.instagram.com/moveup.homebuyers/" target="_blank">
+        <p class="textParrContact">Instagram: moveup.homebuyers</p>
+      </a>
+      <br>
+      <a href="https://www.facebook.com/moveup.homebuyers.5" target="_blank">
+        <p class="textParrContact">Facebook: MoveUp Homebuyers</p>
+      </a>
+      <article class="cercle">
+        <a href="tel:2027702115"> <img class="imgSvgContacts" src="/img/svg/customer-services.svg" alt="svg image" /></a>
+      </article>
+    </div>
+    <img class="imgContact" src="/img/contactUs.jpg" alt="">
+  </div>
+</section>
+<footer class="foot">
+  <div class="ulFoot">
+    <ul class="icons ulSocial ">
+      <li><a href="#howItWorks" class="icon"><span class="labelFoot">HOW IT WORKS</span></a></li>
+      <li><a href="#whyChooseUs" class="icon"><span class="labelFoot">WHY CHOOSE US</span></a></li>
+      <li><a href="#whoWheAre" class="icon "><span class="labelFoot">WHO WE ARE</span></a></li>
+      <li><a href="#testimonials" class="icon "><span class="labelFoot">TESTIMONIALS</span></a></li>
+      <li><a href="#contactUs" class="icon "><span class="labelFoot">CONTACT</span></a></li>
+    </ul>
+    <div class="divSocial">
+      <a href="https://www.facebook.com/moveup.homebuyers.5" target="_blank"> <i class="fab fa-facebook-square imgIcon"></i></a>
+      <a href="https://www.instagram.com/moveup.homebuyers/" target="_blank"> <i class="fab fa-instagram-square imgIcon"></i></a>
+      <a href="mailto:info@moveuphomebuyers.com" target="_blank"> <i class="fas fa-envelope-square imgIcon"></i></a>
+      <a href="tel:2027702115" target="_blank"> <i class="fas fa-phone-square-alt imgIcon"></i></a>
+    </div>
+  </div>
+</footer>
