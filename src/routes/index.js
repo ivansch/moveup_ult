@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 var smtpTransport = require('nodemailer-smtp-transport');
 
 var mailAccountUser = 'info@moveuphomebuyers.com';
-var mailAccountPassword = 'ievsxikcaflnpjhz';
+var mailAccountPassword = 'qwotoyvymshzewdd';
 var toEmailAddress = 'info@moveuphomebuyers.com';
 
 router.get('/', (req, res) => {
