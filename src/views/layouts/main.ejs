@@ -24,7 +24,20 @@
   <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-366108137/ygmlCIPIhsACEOm7ya4B', 'event_callback': callback }); return false; } </script>
   <!-- Phone conversion -->
   <script> gtag('config', 'AW-366108137/N-EhCKDAh8ACEOm7ya4B', { 'phone_conversion_number': '2407702115' }); </script>
-  
+  <script>
+  window.addEventListener('DOMContentLoaded',function(){
+      document.querySelector('.submitFormparr').addEventListener('click',function(){
+          console.log('envio de formulario');
+          gtag('event', 'conversion', {'send_to': 'AW-366108137/ygmlCIPIhsACEOm7ya4B'});
+      });
+      document.querySelectorAll('a[href*="mailto:"]').forEach(function(e){
+          e.addEventListener('click',function(){
+              console.log('click correo');
+              gtag('event', 'conversion', {'send_to': 'AW-366108137/PptQCJjykM0CEOm7ya4B'});
+          });
+      });
+  })
+  </script>
 </head>
 
 
