@@ -32,10 +32,11 @@
           gtag('event', 'conversion', {'send_to': 'AW-366108137/ygmlCIPIhsACEOm7ya4B'});
       });
       document.querySelectorAll('a[href*="mailto:"]').forEach(function(e){
-          e.addEventListener('click',function(){
-              console.log('click correo');
-              gtag('event', 'conversion', {'send_to': 'AW-366108137/PptQCJjykM0CEOm7ya4B'});
-          }, true);
+        e.addEventListener('click',function(){
+            console.log('click correo');
+            gtag('event', 'conversion', {'send_to': 'AW-366108137/PptQCJjykM0CEOm7ya4B'});
+            window.open('mailto:info@moveuphomebuyers.com', '_blank').focus();
+          });
       });
   })
   </script>
