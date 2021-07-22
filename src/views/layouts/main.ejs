@@ -28,6 +28,7 @@
   window.addEventListener('DOMContentLoaded',function(){
       document.querySelector('.submitFormparr').addEventListener('click',function(){
           console.log('envio de formulario');
+          document.forms["myform"].submit();
           gtag('event', 'conversion', {'send_to': 'AW-366108137/ygmlCIPIhsACEOm7ya4B'});
       });
       document.querySelectorAll('a[href*="mailto:"]').forEach(function(e){
