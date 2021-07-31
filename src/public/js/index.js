@@ -23,9 +23,9 @@ btn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -77,4 +77,10 @@ hamburger.addEventListener("click", mobileMenu);
 function mobileMenu() {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
+}
+
+function formsend() {
+  console.log('Send Form')
+  gtag_report_conversion('https://moveuphomebuyers.com/form'); 
+  gtag('event', 'conversion', {'send_to': 'AW-366108137/ygmlCIPIhsACEOm7ya4B'});
 }

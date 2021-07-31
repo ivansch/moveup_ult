@@ -11,6 +11,9 @@ var toEmailAddress = 'info@moveuphomebuyers.com';
 router.get('/', (req, res) => {
   res.render('index');
 });
+router.get('/thanks', (req, res) => {
+  res.render('thanks');
+});
 
 router.post('/send-email', async (req, res) => {
   const {
@@ -59,7 +62,7 @@ router.post('/send-email', async (req, res) => {
 
     transport.close();
   });
-  res.redirect('/');
+  res.redirect('/thanks');
 });
 
 // router.get('/index2', (req, res) => {
