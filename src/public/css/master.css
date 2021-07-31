@@ -1160,7 +1160,7 @@ ul li {
 }
 
 #contactUs {
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 160px;
@@ -1713,6 +1713,12 @@ ul li {
 }
 
 @media only screen and (max-width: 590px) {
+  .circleOffer {
+    display: none;
+  }
+  .btn {
+    margin-top: 0;
+  }
   .imgSvgFooter {
     width: 32px;
     padding: 0px !important;
@@ -1736,10 +1742,11 @@ ul li {
   }
 
   .card {
-    width: 240px;
-    height: 320px;
+    max-width: 100%;
   }
-
+  .cardContent .card {
+    margin: 0 auto;
+  }
   .subtitleCard {
     font-size: 16px;
   }
@@ -2012,7 +2019,7 @@ ul li {
   }
 
   .cercle {
-    background-color: #031A6B14;
+    background-color: #fff;
     border-radius: 50%;
     width: 64px;
     padding: 6px;
