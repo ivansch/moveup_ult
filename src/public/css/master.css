@@ -309,9 +309,10 @@ nav {
   font-size: 18px;
   color: darkgrey;
   cursor: default;
+  border: 4px solid transparent;
 }
 
-.parrCardCont.active {
+.parrCardCont:hover {
   color: #009EE2;
   font-weight: 600;
   background: #FFFFFF;
@@ -331,13 +332,13 @@ nav {
   margin-top: 10px;
 }
 
-.parrCardCont:hover {
+/* .parrCardCont:hover {
   color: #57b4dc;
   font-weight: 600;
   background-color: #f3fbff;
   border-radius: 24px;
   cursor: default;
-}
+} */
 
 .actionTel {
   padding: 0px !important;
@@ -1076,7 +1077,7 @@ ul li {
 
 
 .foot {
-  height: 200px;
+  height: 230px;
   width: 100%;
   background-color: #031A6B;
 }
@@ -1820,7 +1821,12 @@ ul li {
   .parrCardCont {
     line-height: 18px;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .parrCardCont:hover {
+    border: 2px solid #009EE2;
+    font-weight: 500;
   }
 
   .cardContents3 {
@@ -2045,7 +2051,7 @@ ul li {
 
 @media only screen and (max-width: 400px) {
   .cuadranteTestimonials {
-    height: 330px;
+    height: fit-content;
   }
 
   .imgSvgTestimonials {
